@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using StackExchange.Redis;
 using Microsoft.Extensions.Configuration;
 using System.IO;
@@ -26,12 +23,6 @@ namespace csMQ
             ConfigSettings.ErrorQueue = redisQueues["ErrorQueue"];
             ConfigSettings.JobQueue = redisQueues["JobQueue"];
             ConfigSettings.RunQueue = redisQueues["RunQueue"];
-
-            //Console.WriteLine(ConfigSettings.Host);
-            //Console.WriteLine(ConfigSettings.JobQueue);
-            //Console.WriteLine(ConfigSettings.RunQueue);
-            //Console.WriteLine(ConfigSettings.CompletedQueue);
-            //Console.WriteLine(ConfigSettings.ErrorQueue);
 
             var redis = ConnectionMultiplexer.Connect(ConfigSettings.Host);
 
