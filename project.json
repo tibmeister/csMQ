@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "copyToOutput": [ "config.json" ]
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0"
+    },
+    "Microsoft.NETCore.Targets.DNXCore": "5.0.0-beta-23516",
+    "runtime.linux.System.IO.FileSystem.Watcher": "4.0.0-beta-23516",
+    "runtime.osx.10.10.System.IO.FileSystem.Watcher": "4.0.0-beta-23516",
+    "StackExchange.Redis": "1.1.604-alpha",
+    "System.IO.FileSystem.Watcher": "4.0.0"  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}

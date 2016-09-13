@@ -1,0 +1,11 @@
+﻿{
+  "Server": {
+    "Host": "opti:6379",    
+  },
+  "Queues": {
+    "JobQueue": "test",
+    "RunQueue": "running",
+    "ErrorQueue": "errorq",
+    "CompletedQueue": "completed"
+  } 
+}
