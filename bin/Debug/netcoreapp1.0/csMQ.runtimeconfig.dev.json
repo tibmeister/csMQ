@@ -1,7 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/ubuntu/.nuget/packages"
+      "C:\\Users\\tiers\\.nuget\\packages"
     ]
   }
 }

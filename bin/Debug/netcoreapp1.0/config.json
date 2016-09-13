@@ -1,6 +1,6 @@
 ﻿{
   "Server": {
-    "Host": "10.27.200.65:6379",    
+    "Host": "localhost:6379",    
   },
   "Queues": {
     "JobQueue": "test",
