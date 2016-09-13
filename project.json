@@ -13,10 +13,7 @@
       "version": "1.0.0"
     },
     "Microsoft.NETCore.Targets.DNXCore": "5.0.0-beta-23516",
-    "runtime.linux.System.IO.FileSystem.Watcher": "4.0.0-beta-23516",
-    "runtime.osx.10.10.System.IO.FileSystem.Watcher": "4.0.0-beta-23516",
-    "StackExchange.Redis": "1.1.604-alpha",
-    "System.IO.FileSystem.Watcher": "4.0.0"  },
+    "StackExchange.Redis": "1.1.604-alpha" },
 
   "frameworks": {
     "netcoreapp1.0": {

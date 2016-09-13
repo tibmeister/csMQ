@@ -554,31 +554,6 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
-      "runtime.linux.System.IO.FileSystem.Watcher/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.10",
-          "System.IO.FileSystem": "4.0.0",
-          "System.IO.FileSystem.Primitives": "4.0.0",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Extensions": "4.0.10",
-          "System.Runtime.Handles": "4.0.0",
-          "System.Runtime.InteropServices": "4.0.20",
-          "System.Text.Encoding": "4.0.10",
-          "System.Threading": "4.0.10",
-          "System.Threading.Tasks": "4.0.10"
-        },
-        "compile": {
-          "ref/dotnet/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/dotnet5.4/System.IO.FileSystem.Watcher.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          }
-        }
-      },
       "runtime.native.System/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -642,31 +617,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
-        }
-      },
-      "runtime.osx.10.10.System.IO.FileSystem.Watcher/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.10",
-          "System.IO.FileSystem": "4.0.0",
-          "System.IO.FileSystem.Primitives": "4.0.0",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Extensions": "4.0.10",
-          "System.Runtime.Handles": "4.0.0",
-          "System.Runtime.InteropServices": "4.0.20",
-          "System.Threading": "4.0.10",
-          "System.Threading.Tasks": "4.0.10",
-          "System.Threading.Thread": "4.0.0-beta-23516"
-        },
-        "compile": {
-          "ref/dotnet/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/dotnet5.4/System.IO.FileSystem.Watcher.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          }
         }
       },
       "StackExchange.Redis/1.1.604-alpha": {
@@ -2987,17 +2937,6 @@
         "tools/install.ps1"
       ]
     },
-    "runtime.linux.System.IO.FileSystem.Watcher/4.0.0-beta-23516": {
-      "sha512": "gD5yE9OyoJNSFLITeIPcHMhmwGEtAN7P9hyzugxQLZplZ22wzJ3e9PP4rJD92HNm2L3We2N/R05Ox8ktlK2YnQ==",
-      "type": "package",
-      "path": "runtime.linux.System.IO.FileSystem.Watcher/4.0.0-beta-23516",
-      "files": [
-        "ref/dotnet/_._",
-        "runtime.linux.System.IO.FileSystem.Watcher.4.0.0-beta-23516.nupkg.sha512",
-        "runtime.linux.System.IO.FileSystem.Watcher.nuspec",
-        "runtimes/unix/lib/dotnet5.4/System.IO.FileSystem.Watcher.dll"
-      ]
-    },
     "runtime.native.System/4.0.0": {
       "sha512": "QfS/nQI7k/BLgmLrw7qm7YBoULEvgWnPI+cYsbfCVFTW8Aj+i8JhccxcFMu1RWms0YZzF+UHguNBK4Qn89e2Sg==",
       "type": "package",
@@ -3056,17 +2995,6 @@
         "lib/netstandard1.0/_._",
         "runtime.native.System.Security.Cryptography.4.0.0.nupkg.sha512",
         "runtime.native.System.Security.Cryptography.nuspec"
-      ]
-    },
-    "runtime.osx.10.10.System.IO.FileSystem.Watcher/4.0.0-beta-23516": {
-      "sha512": "JUu7LCrvm6vbTxo/Knfbzaz42ROd4VlDCbyyZIzCj4JCPIJlVRzvHaI9H0lJNytt/IzdXodDV9CW+fLadtMLaQ==",
-      "type": "package",
-      "path": "runtime.osx.10.10.System.IO.FileSystem.Watcher/4.0.0-beta-23516",
-      "files": [
-        "ref/dotnet/_._",
-        "runtime.osx.10.10.System.IO.FileSystem.Watcher.4.0.0-beta-23516.nupkg.sha512",
-        "runtime.osx.10.10.System.IO.FileSystem.Watcher.nuspec",
-        "runtimes/unix/lib/dotnet5.4/System.IO.FileSystem.Watcher.dll"
       ]
     },
     "StackExchange.Redis/1.1.604-alpha": {
@@ -7490,10 +7418,7 @@
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 1.0.0",
       "Microsoft.NETCore.App >= 1.0.0",
       "Microsoft.NETCore.Targets.DNXCore >= 5.0.0-beta-23516",
-      "StackExchange.Redis >= 1.1.604-alpha",
-      "System.IO.FileSystem.Watcher >= 4.0.0",
-      "runtime.linux.System.IO.FileSystem.Watcher >= 4.0.0-beta-23516",
-      "runtime.osx.10.10.System.IO.FileSystem.Watcher >= 4.0.0-beta-23516"
+      "StackExchange.Redis >= 1.1.604-alpha"
     ],
     ".NETCoreApp,Version=v1.0": []
   },
