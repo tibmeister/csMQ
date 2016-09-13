@@ -38,6 +38,8 @@ namespace csMQ
             var db = redis.GetDatabase();
             var t = "";
             bool doCheck = true;
+	    Console.WriteLine("Now listening\n\n");
+
             while (true)
             {
                 while (doCheck)
